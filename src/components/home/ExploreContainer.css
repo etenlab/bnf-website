@@ -20,6 +20,15 @@
   margin: 0;
 }
 
+#centered {
+  text-align: center;
+}
+
+#cardtitle {
+  padding: 10;
+  margin-left: 10;
+}
+
 #container a {
   text-decoration: none;
 }
