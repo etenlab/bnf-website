@@ -1,4 +1,4 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonSearchbar, IonTitle, IonToolbar } from '@ionic/react';
 import MainContainer from '../components/home/ExploreContainer';
 import './Home.css';
 
@@ -7,7 +7,7 @@ const Home: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>BiblioNexus</IonTitle>
+          <IonTitle slot='start'>BiblioNexus</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen scrollEvents>

@@ -1,4 +1,4 @@
-import { IonButton, IonCard, IonCardContent, IonCardTitle, IonCol, IonGrid, IonItem, IonLabel, IonList, IonListHeader, IonRow, IonText } from '@ionic/react';
+import { IonButton, IonCard, IonCardContent, IonCardTitle, IonCol, IonGrid, IonItem, IonLabel, IonList, IonListHeader, IonRow, IonSearchbar, IonText } from '@ionic/react';
 import './ExploreContainer.css';
 import { about } from '../strings';
 
@@ -8,6 +8,7 @@ const MainContainer: React.FC<ContainerProps> = () => {
   return (
     <div id="container">
       <IonGrid>
+        <IonRow><IonCol offset='10'><IonSearchbar/></IonCol></IonRow>
         <IonRow>
           <IonCol><IonText color="primary"><h1>We are BiblioNexus!</h1></IonText></IonCol>
         </IonRow>
@@ -45,6 +46,7 @@ const MainContainer: React.FC<ContainerProps> = () => {
             </IonCard>
           </IonCol>
         </IonRow>
+        
       </IonGrid>
     </div>
   );
