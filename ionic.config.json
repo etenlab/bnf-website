@@ -1,0 +1,7 @@
+{
+  "name": "BiblioNexus",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
