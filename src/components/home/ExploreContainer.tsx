@@ -46,7 +46,16 @@ const MainContainer: React.FC<ContainerProps> = () => {
             </IonCard>
           </IonCol>
         </IonRow>
-        
+        <IonRow>
+          <IonText color="primary" ><h1>News</h1></IonText>
+        </IonRow>
+        <IonRow>
+          <IonCol><IonCard><IonCardTitle>non consectetur a erat nam</IonCardTitle><IonCardContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed augue lacus viverra vitae congue eu consequat.</IonCardContent></IonCard></IonCol>
+          <IonCol><IonCard><IonCardTitle>non consectetur a erat nam</IonCardTitle><IonCardContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed augue lacus viverra vitae congue eu consequat.</IonCardContent></IonCard></IonCol>
+          <IonCol><IonCard><IonCardTitle>non consectetur a erat nam</IonCardTitle><IonCardContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed augue lacus viverra vitae congue eu consequat.</IonCardContent></IonCard></IonCol>
+          <IonCol><IonCard><IonCardTitle>non consectetur a erat nam</IonCardTitle><IonCardContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed augue lacus viverra vitae congue eu consequat.</IonCardContent></IonCard></IonCol>
+          <IonCol><IonCard><IonCardTitle>non consectetur a erat nam</IonCardTitle><IonCardContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed augue lacus viverra vitae congue eu consequat.</IonCardContent></IonCard></IonCol>
+        </IonRow>
       </IonGrid>
     </div>
   );
