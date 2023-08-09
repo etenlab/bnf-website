@@ -6,7 +6,7 @@ interface ContainerProps { }
 
 const MainContainer: React.FC<ContainerProps> = () => {
   return (
-      <IonGrid>
+      <IonGrid style={{ padding: "100px" }}>
         <IonRow><IonCol offset='10'><IonSearchbar/></IonCol></IonRow>
         <div id='centered'><IonRow>
           <IonCol><IonText color="primary"><img src="https://fakeimg.pl/1050x200/?text=BiblioNexus" /></IonText></IonCol>
@@ -26,17 +26,16 @@ const MainContainer: React.FC<ContainerProps> = () => {
         </div>
         <IonRow>
           <IonCol>
-            <IonCard> 
+            <IonCard id='ion-card'> 
               <IonCardHeader><IonCardTitle><IonText color="secondary"><h2>About the Foundation</h2></IonText></IonCardTitle></IonCardHeader>
               <IonCardContent>{about}</IonCardContent>            
             </IonCard>
           </IonCol>
           <IonCol>
-            <IonCard>
-              <IonCardHeader><IonCardTitle><IonText color="secondary"><h2>Most Recent...</h2></IonText></IonCardTitle></IonCardHeader>
+            <IonCard id='ion-card'>
+              <IonCardHeader><IonCardTitle><IonText color="secondary"><h2>Our Projects</h2></IonText></IonCardTitle></IonCardHeader>
               <IonCardContent>
                 <IonList>
-                  <IonListHeader><IonButton>See All</IonButton></IonListHeader>
                   {projects.map((project) => (
                     <IonItem key={project.name}>
                       <IonLabel><h2>{project.name}</h2><IonIcon icon="code-slash-outline" /><p>{project.description}</p></IonLabel>

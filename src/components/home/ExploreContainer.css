@@ -33,3 +33,17 @@
   text-decoration: none;
 }
 
+#ion-card {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+#ion-card ion-card-content {
+  overflow: hidden;
+  overflow-y: auto;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
