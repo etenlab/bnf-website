@@ -47,3 +47,10 @@
   }
 }
 
+.title-image {
+  /* width: 100%; */
+  padding: 30px;
+  background-color: rgb(76, 141, 168);
+  border: 10px solid rgb(76, 141, 168);
+  border-radius: 10px;
+}

@@ -1,4 +1,4 @@
-import { IonButton, IonCard, IonCardContent, IonCardHeader, IonCardTitle, IonCol, IonGrid, IonIcon, IonItem, IonLabel, IonList, IonListHeader, IonRow, IonSearchbar, IonText } from '@ionic/react';
+import { IonButton, IonCard, IonCardContent, IonCardHeader, IonCardTitle, IonCol, IonGrid, IonIcon, IonImg, IonItem, IonLabel, IonList, IonListHeader, IonRow, IonSearchbar, IonText } from '@ionic/react';
 import './ExploreContainer.css';
 import { about, companyShortDesc, companySlogan, projects } from '../strings';
 
@@ -7,21 +7,23 @@ interface ContainerProps { }
 const MainContainer: React.FC<ContainerProps> = () => {
   return (
       <IonGrid style={{ padding: "100px" }}>
-        <IonRow><IonCol offset='10'><IonSearchbar/></IonCol></IonRow>
-        <div id='centered'><IonRow>
-          <IonCol><IonText color="primary"><img src="https://fakeimg.pl/1050x200/?text=BiblioNexus" /></IonText></IonCol>
-        </IonRow></div>
+
+        <div className='title-image'>
+
+        <IonImg src="./FullLogo_Transparent_NoBuffer.png"></IonImg>
+        </div>
+
         <div id='centered'>
         <IonRow>
           <IonCol style={{ padding: 0}}><IonText color="medium"><h1>{companySlogan}</h1></IonText></IonCol>
         </IonRow>
         <IonRow>
-          <IonCol style={{ padding: 0 }}><p>{companyShortDesc}</p></IonCol>
+          {/* <IonCol style={{ padding: 0 }}><p>{companyShortDesc}</p></IonCol> */}
         </IonRow>
-        <hr style={{ height: '1px', width: '50%', background: "black" }} />
+        {/* <hr style={{ height: '1px', width: '50%', background: "black" }} /> */}
         <IonRow>
-          <IonCol offset='2'><IonButton>Our Projects</IonButton></IonCol>
-          <IonCol pull='2'><IonButton>Contribute</IonButton></IonCol>
+          {/* <IonCol offset='2'><IonButton>Our Projects</IonButton></IonCol>
+          <IonCol pull='2'><IonButton>Contribute</IonButton></IonCol> */}
         </IonRow>
         </div>
         <IonRow>
@@ -46,16 +48,16 @@ const MainContainer: React.FC<ContainerProps> = () => {
             </IonCard>
           </IonCol>
         </IonRow>
-        <IonRow>
+        {/* <IonRow>
           <IonText color="primary" ><h1>News</h1></IonText>
-        </IonRow>
-        <IonRow>
+        </IonRow> */}
+        {/* <IonRow>
           <IonCol><IonCard><IonCardTitle>non consectetur a erat nam</IonCardTitle><IonCardContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed augue lacus viverra vitae congue eu consequat.</IonCardContent></IonCard></IonCol>
           <IonCol><IonCard><IonCardTitle>non consectetur a erat nam</IonCardTitle><IonCardContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed augue lacus viverra vitae congue eu consequat.</IonCardContent></IonCard></IonCol>
           <IonCol><IonCard><IonCardTitle>non consectetur a erat nam</IonCardTitle><IonCardContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed augue lacus viverra vitae congue eu consequat.</IonCardContent></IonCard></IonCol>
           <IonCol><IonCard><IonCardTitle>non consectetur a erat nam</IonCardTitle><IonCardContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed augue lacus viverra vitae congue eu consequat.</IonCardContent></IonCard></IonCol>
           <IonCol><IonCard><IonCardTitle>non consectetur a erat nam</IonCardTitle><IonCardContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed augue lacus viverra vitae congue eu consequat.</IonCardContent></IonCard></IonCol>
-        </IonRow>
+        </IonRow> */}
       </IonGrid>
   );
 };

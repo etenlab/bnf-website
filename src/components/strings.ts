@@ -1,30 +1,33 @@
-export const about = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Et tortor at risus viverra adipiscing at in tellus. Pellentesque massa placerat duis ultricies lacus. Placerat vestibulum lectus mauris ultrices. Commodo nulla facilisi nullam vehicula ipsum a. Vulputate dignissim suspendisse in est ante in nibh. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla pellentesque. Ac auctor augue mauris augue neque gravida in. Imperdiet dui accumsan sit amet nulla facilisi morbi. Lacus laoreet non curabitur gravida arcu ac tortor dignissim. Viverra vitae congue eu consequat ac felis donec. Massa tincidunt dui ut ornare lectus sit amet est placerat.
-Diam vulputate ut pharetra sit amet aliquam id diam maecenas. Consectetur purus ut faucibus pulvinar. Nunc non blandit massa enim nec dui nunc mattis. Enim sed faucibus turpis in eu mi. Et ultrices neque ornare aenean euismod elementum nisi. Duis ultricies lacus sed turpis. Aliquet sagittis id consectetur purus. Blandit libero volutpat sed cras ornare. Tortor at risus viverra adipiscing at in tellus integer feugiat. Elementum pulvinar etiam non quam lacus suspendisse faucibus interdum posuere. Et egestas quis ipsum suspendisse ultrices. Consequat id porta nibh venenatis cras sed felis eget. Fames ac turpis egestas sed tempus.
-`
-
-export const companySlogan = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
-export const companyShortDesc = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+export const companySlogan =
+  "BiblioNexus Foundation serves the Bible translation movement by facilitating inter-organizational software development";
+export const companyShortDesc =
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+export const about = `As it became apparent to the ETEN steering commitee that progress towards the All Access Goals (AAGs) was not on track to be met by 2033, an initiative was created to research and develop methods to accelerate Bible translation. One result of that effort was the creation of the BiblioNexus Foundation (BNF). The BNF is a not-for-profit organization the seeks to help Bible translation organizations collaborate more effectively within the software development lifecycle. The BNF is not a funding agency and does not make funding recommendations. The BNF is structured so that organizations can move projects under the BNF brand to help engender wider collaboration within the Bible translation movement and open source community.
+`;
 
 export const projects = [
-    { 
-     name: "odio",
-     sourceCodeLink: "",
-     demoLink: "",
-     contact: "nothing@nobody.com",
-     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    { 
-        name: "mi",
-        sourceCodeLink: "",
-        demoLink: "",
-        contact: "nothing@nobody.com",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    { 
-        name: "asdf",
-        sourceCodeLink: "",
-        demoLink: "",
-        contact: "nothing@nobody.com",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-]
+  {
+    name: "Aquifer.Bible",
+    sourceCodeLink: "",
+    demoLink: "",
+    contact: "development@biblionexus.org",
+    description:
+      "The Aquifer brings together all trusted and trustworthy freely-available resources for Bible translation teams",
+  },
+  {
+    name: "crowd.rocks",
+    sourceCodeLink: "",
+    demoLink: "",
+    contact: "development@biblionexus.org",
+    description:
+      "crowdrocks is a sandbox that experiments with crowdsourcing different parts of the Bible translation workflow",
+  },
+  {
+    name: "QA.Bible",
+    sourceCodeLink: "",
+    demoLink: "",
+    contact: "nothing@nobody.com",
+    description:
+      "QA.Bible is development new and innovative techniques to deliver high-quality translations at a faster rate",
+  },
+];
