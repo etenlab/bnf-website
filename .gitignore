@@ -4,3 +4,8 @@
 *.d.ts
 node_modules
 dist
+
+# CDK assets
+.cdk.staging
+cdk.out
+cdk.context.json
