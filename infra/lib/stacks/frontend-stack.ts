@@ -1,6 +1,7 @@
 import * as cdk from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 import * as s3 from 'aws-cdk-lib/aws-s3';
+import * as ssm from 'aws-cdk-lib/aws-ssm';
 
 import { FrontendCloudfront } from '../components';
 
@@ -82,5 +83,14 @@ export class FrontendStack extends cdk.Stack {
       exportName: `${props.appId}-domain-name`,
       value: props.domainName,
     });
+
+    new ssm.StringParameter(
+      this,
+      `${props.appPrefix}${props.appId}DeployParams`,
+      {
+        parameterName: `/${props.envName}/deploy/${props.domainName}/env`,
+        stringValue: `AWS_S3_BUCKET=${assetsBucket.bucketName}\nDISTRIBUTION_ID=${cloudfrontDistribution.distributionId}`,
+      },
+    );
   }
 }

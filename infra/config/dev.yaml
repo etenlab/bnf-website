@@ -7,6 +7,6 @@ appPrefix: 'bnf-dev'
 
 app:
   appId: bnf-app
-  domainName: dev.biblionexusfoundation.org
+  domainName: dev.foundation.biblionexus.org
   enabled: true
   createCustomDomain: true

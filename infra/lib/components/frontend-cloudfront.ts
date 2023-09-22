@@ -56,7 +56,9 @@ export class FrontendCloudfront extends Construct {
     this.domainName = props.domainName;
     this.rootDomainName = this.setRootDomainName(props.domainName);
 
-    this.cloudfront = this.createCloudfrontDistribution(props.createCustomDomain);
+    this.cloudfront = this.createCloudfrontDistribution(
+      props.createCustomDomain,
+    );
     if (props.createCustomDomain) {
       this.createRoute53Record();
     }
@@ -123,10 +125,7 @@ export class FrontendCloudfront extends Construct {
       return undefined;
     }
 
-    const [subdomain, ...rest] = domainName.split('.');
-    const rootdomain = rest.length > 2 ? rest.join('.') : domainName;
-
-    return rootdomain;
+    return domainName;
   }
 
   private requestAcmCertificate() {
