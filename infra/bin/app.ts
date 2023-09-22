@@ -28,4 +28,4 @@ const appStack = new FrontendStack(app, `${config.environment}BnfApp`, {
 });
 
 /** Tags */
-cdk.Tags.of(appStack).add(TAGS.PROJECT, 'bnf');
+cdk.Tags.of(appStack).add(TAGS.PROJECT, 'BNF');

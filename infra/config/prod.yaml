@@ -7,6 +7,6 @@ appPrefix: 'bnf-prod'
 
 app:
   appId: bnf-app
-  domainName: biblionexusfoundation.org
+  domainName: foundation.biblionexus.org
   enabled: true
   createCustomDomain: true
