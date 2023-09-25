@@ -1,5 +1,3 @@
-import { Component } from "react";
-
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
@@ -78,16 +76,16 @@ function HomePage() {
                             <article className="card">
                                 <div className="content">
                                 <span className="label label-danger">Foundation Blog</span>
-                                <h5><a className="entryTitle" href="https://news.apache.org/?p=5730" target="_blank">Apache Software Foundation Announces Keynote Speakers for Community Over Code North America</a></h5>
+                                <h5><a className="entryTitle" href="https://news.apache.org/?p=5730">Apache Software Foundation Announces Keynote Speakers for Community Over Code North America</a></h5>
                                 </div>
-                                <a className="continue" href="https://news.apache.org/?p=5730" target="_blank">Continue Reading&nbsp;→</a>
+                                <a className="continue" href="https://news.apache.org/?p=5730">Continue Reading&nbsp;→</a>
                             </article>
                             <article className="card">
                                 <div className="content">
                                 <span className="label label-danger">Foundation Blog</span>
-                                <h5><a className="entryTitle" href="https://news.apache.org/?p=5721" target="_blank">Apache Software Foundation Releases Annual Report for 2023 Fiscal Year</a></h5>
+                                <h5><a className="entryTitle" href="https://news.apache.org/?p=5721">Apache Software Foundation Releases Annual Report for 2023 Fiscal Year</a></h5>
                                 </div>
-                                <a className="continue" href="https://news.apache.org/?p=5721" target="_blank">Continue Reading&nbsp;→</a>
+                                <a className="continue" href="https://news.apache.org/?p=5721">Continue Reading&nbsp;→</a>
                             </article>
                         </div>
                     </div>

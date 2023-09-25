@@ -1,4 +1,3 @@
-import { Component } from "react";
 
 function ProjectsPage() {
     return (
