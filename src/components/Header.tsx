@@ -19,40 +19,40 @@ function Header() {
                     title="Community"
                     menuVariant="light"
                     >
-                        <NavDropdown.Item href="#">Contributor Getting Started</NavDropdown.Item>
-                        <NavDropdown.Item href="#">Becoming a Committer</NavDropdown.Item>
-                        <NavDropdown.Item href="#">Code of Conduct</NavDropdown.Item>
-                        <NavDropdown.Item href="#">Community Resources</NavDropdown.Item>
+                        <NavDropdown.Item href="/getting-started">Contributor Getting Started</NavDropdown.Item>
+                        <NavDropdown.Item href="/becoming-committer">Becoming a Committer</NavDropdown.Item>
+                        <NavDropdown.Item href="/code-of-conduct">Code of Conduct</NavDropdown.Item>
+                        <NavDropdown.Item href="/community-resources">Community Resources</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown
                     id="nav-dropdown-projects"
                     title="Projects"
                     menuVariant="light"
                     >
-                        <NavDropdown.Item href="#">Projects</NavDropdown.Item>
+                        <NavDropdown.Item href="/projects">Projects</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown
                     id="nav-dropdown-learn"
                     title="Learn"
                     menuVariant="light"
                     >
-                        <NavDropdown.Item href="#">Blog</NavDropdown.Item>
-                        <NavDropdown.Item href="#">How the ASF Works</NavDropdown.Item>
-                        <NavDropdown.Item href="#">Legal &amp; Trademark</NavDropdown.Item>
-                        <NavDropdown.Item href="#">Licenses</NavDropdown.Item>
-                        <NavDropdown.Item href="#">Glossary</NavDropdown.Item>
-                        <NavDropdown.Item href="#">FAQ</NavDropdown.Item>
+                        <NavDropdown.Item href="/blog">Blog</NavDropdown.Item>
+                        <NavDropdown.Item href="/how-the-asf-works">How the ASF Works</NavDropdown.Item>
+                        <NavDropdown.Item href="/leagal-trademark">Legal &amp; Trademark</NavDropdown.Item>
+                        <NavDropdown.Item href="/licenses">Licenses</NavDropdown.Item>
+                        <NavDropdown.Item href="/gloassary">Glossary</NavDropdown.Item>
+                        <NavDropdown.Item href="/faq">FAQ</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown
                     id="nav-dropdown-about"
                     title="About"
                     menuVariant="light"
                     >
-                        <NavDropdown.Item href="#">About</NavDropdown.Item>
-                        <NavDropdown.Item href="#">Our Sponsors</NavDropdown.Item>
-                        <NavDropdown.Item href="#">Leadership</NavDropdown.Item>
-                        <NavDropdown.Item href="#">Members</NavDropdown.Item>
-                        <NavDropdown.Item href="#">Contact</NavDropdown.Item>
+                        <NavDropdown.Item href="/about">About</NavDropdown.Item>
+                        <NavDropdown.Item href="/our-sponsers">Our Sponsors</NavDropdown.Item>
+                        <NavDropdown.Item href="/leadership">Leadership</NavDropdown.Item>
+                        <NavDropdown.Item href="/members">Members</NavDropdown.Item>
+                        <NavDropdown.Item href="/contact">Contact</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
                 </Navbar.Collapse>
