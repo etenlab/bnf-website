@@ -7,6 +7,7 @@ appPrefix: 'bnf-prod'
 
 app:
   appId: bnf-app
-  domainName: foundation.biblionexus.org
-  enabled: true
-  createCustomDomain: true
+  domainName: biblionexus.org
+  enabled: false
+  createRoute53Record: false
+  certificateArn: arn:aws:acm:us-east-1:605254017010:certificate/d93b9dd3-1b71-4f59-b9c6-a265360ef753

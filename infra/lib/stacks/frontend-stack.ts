@@ -25,7 +25,13 @@ export interface FrontendStackProps extends cdk.StackProps {
   /** Whether Cloudfront is accessible */
   readonly enabled: boolean;
 
-  readonly createCustomDomain: boolean;
+   /**
+   * Whether to create Route53 record for distribution.
+   * */
+  readonly createRoute53Record: boolean;
+
+  /** Arn of the existing ACM certificate */
+  readonly certificateArn?: string;
 }
 
 /**
@@ -64,7 +70,8 @@ export class FrontendStack extends cdk.Stack {
         bucket: assetsBucket,
         domainName: props.domainName,
         enabled: props.enabled,
-        createCustomDomain: props.createCustomDomain,
+        createRoute53Record: props.createRoute53Record,
+        certificateArn: props.certificateArn,
       },
     ).getDistribution();
 
@@ -77,6 +84,11 @@ export class FrontendStack extends cdk.Stack {
     new cdk.CfnOutput(this, `${props.appPrefix}CloudfrontId`, {
       exportName: `${props.appId}-distribution-id`,
       value: cloudfrontDistribution.distributionId,
+    });
+
+    new cdk.CfnOutput(this, `${props.appPrefix}CloudfrontDomain`, {
+      exportName: `${props.appId}-distribution-domain-name`,
+      value: cloudfrontDistribution.distributionDomainName,
     });
 
     new cdk.CfnOutput(this, `${props.appPrefix}DomainName`, {
