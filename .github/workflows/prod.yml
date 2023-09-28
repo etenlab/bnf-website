@@ -25,7 +25,7 @@ jobs:
 
       - uses: dkershner6/aws-ssm-getparameters-action@v1
         with:
-          parameterPairs: "/prod/deploy/foundation.biblionexus.org/env = ENV"
+          parameterPairs: "/prod/deploy/biblionexus.org/env = ENV"
 
       - name: store env
         run: |

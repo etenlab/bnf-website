@@ -24,7 +24,8 @@ const appStack = new FrontendStack(app, `${config.environment}BnfApp`, {
   domainName: config.app.domainName,
   appId: config.app.appId,
   enabled: config.app.enabled,
-  createCustomDomain: config.app.createCustomDomain,
+  createRoute53Record: config.app.createRoute53Record,
+  certificateArn: config.app.certificateArn,
 });
 
 /** Tags */

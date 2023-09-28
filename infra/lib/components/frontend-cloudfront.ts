@@ -7,7 +7,7 @@ import * as iam from 'aws-cdk-lib/aws-iam';
 import * as acm from 'aws-cdk-lib/aws-certificatemanager';
 import * as route53 from 'aws-cdk-lib/aws-route53';
 import * as route53targets from 'aws-cdk-lib/aws-route53-targets';
-import { importHostedZone } from '../helpers';
+import { importAcmCertificate, importHostedZone } from '../helpers';
 
 /**
  * Properties required to create a VPC
@@ -26,10 +26,12 @@ export interface CloudfrontProps {
   readonly enabled: boolean;
 
   /**
-   * Whether to create custom domain name for distribution.
-   * If "true" domainName param must be defined
+   * Whether to create Route53 record for distribution.
    * */
-  readonly createCustomDomain: boolean;
+  readonly createRoute53Record: boolean;
+
+  /** Arn of the existing ACM certificate */
+  readonly certificateArn?: string;
 }
 
 /**
@@ -43,6 +45,7 @@ export class FrontendCloudfront extends Construct {
   private bucket: s3.IBucket;
   private domainName: string | undefined;
   private rootDomainName: string | undefined;
+  private certificate: acm.ICertificate;
   private enabled: boolean;
   private rootHostedZone: route53.IHostedZone;
 
@@ -55,11 +58,10 @@ export class FrontendCloudfront extends Construct {
     this.bucket = props.bucket;
     this.domainName = props.domainName;
     this.rootDomainName = this.setRootDomainName(props.domainName);
+    this.certificate = this.getCertificate(props.certificateArn);
 
-    this.cloudfront = this.createCloudfrontDistribution(
-      props.createCustomDomain,
-    );
-    if (props.createCustomDomain) {
+    this.cloudfront = this.createCloudfrontDistribution();
+    if (props.createRoute53Record) {
       this.createRoute53Record();
     }
   }
@@ -68,7 +70,7 @@ export class FrontendCloudfront extends Construct {
     return this.cloudfront;
   }
 
-  private createCloudfrontDistribution(createCustomDomainName: boolean) {
+  private createCloudfrontDistribution() {
     const distributionProps: Record<string, any> = {
       defaultRootObject: 'index.html',
       defaultBehavior: {
@@ -98,10 +100,8 @@ export class FrontendCloudfront extends Construct {
       ],
     };
 
-    if (createCustomDomainName) {
-      distributionProps.certificate = this.requestAcmCertificate();
-      distributionProps.domainNames = [this.domainName];
-    }
+    distributionProps.certificate = this.certificate;
+    distributionProps.domainNames = [this.domainName];
 
     return new cloudfront.Distribution(
       this.parent,
@@ -128,11 +128,21 @@ export class FrontendCloudfront extends Construct {
     return domainName;
   }
 
-  private requestAcmCertificate() {
+  private getCertificate(certificateArn?: string) {
     if (!this.rootDomainName || !this.domainName) {
       throw new Error(
         'Can not import hosted zone as rootDomainName is not defined',
       );
+    }
+
+    if (certificateArn) {
+      const certificate = importAcmCertificate(
+        this.parent,
+        `${this.domainName}Cert`,
+        certificateArn,
+      );
+
+      return certificate;
     }
 
     this.rootHostedZone = importHostedZone(
