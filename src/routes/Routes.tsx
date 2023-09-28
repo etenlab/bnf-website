@@ -1,6 +1,10 @@
+import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import HomePage from '../pages/HomePage';
+import InnerLayout from '../layouts/InnerLayout';
+import HomeLayout from '../layouts/HomeLayout';
+
 import AboutPage from '../pages/about/AboutPage';
 import ContactPage from '../pages/about/ContactPage';
 import LeadershipPage from '../pages/about/LeadershipPage';
@@ -22,23 +26,30 @@ import ProjectsPage from '../pages/projects/ProjectsPage'
 const Router = () => {
   return (
     <Routes> {/* The Switch decides which component to show based on the current URL.*/}
-      <Route path='/' element={<HomePage />}></Route>
-      <Route path='/about' element={<AboutPage />}></Route>
-      <Route path='/contact' element={<ContactPage />}></Route>
-      <Route path='/leadership' element={<LeadershipPage />}></Route>
-      <Route path='/members' element={<MembersPage />}></Route>
-      <Route path='/our-sponsers' element={<OurSponsersPage />}></Route>
-      <Route path='/becoming-committer' element={<BecomingCommitterPage />}></Route>
-      <Route path='/code-of-conduct' element={<CodeOfConductPage />}></Route>
-      <Route path='/community-resources' element={<CommunityResourcesPage />}></Route>
-      <Route path='/getting-started' element={<GettingStartedPage />}></Route>
-      <Route path='/blog' element={<BlogPage />}></Route>
-      <Route path='/faq' element={<FAQPage />}></Route>
-      <Route path='/gloassary' element={<GlossaryPage />}></Route>
-      <Route path='/how-the-asf-works' element={<HowTheASFWorksPage />}></Route>
-      <Route path='/leagal-trademark' element={<LegalTrademarkPage />}></Route>
-      <Route path='/licenses' element={<LicensesPage />}></Route>
-      <Route path='/projects' element={<ProjectsPage />}></Route>
+      
+      <Route element={<HomeLayout />}>
+        <Route path='/' element={<HomePage />}></Route>
+      </Route>
+
+      <Route element={<InnerLayout />}>
+        <Route path='/about' element={<AboutPage />}></Route>
+        <Route path='/contact' element={<ContactPage />}></Route>
+        <Route path='/leadership' element={<LeadershipPage />}></Route>
+        <Route path='/members' element={<MembersPage />}></Route>
+        <Route path='/our-sponsers' element={<OurSponsersPage />}></Route>
+        <Route path='/becoming-committer' element={<BecomingCommitterPage />}></Route>
+        <Route path='/code-of-conduct' element={<CodeOfConductPage />}></Route>
+        <Route path='/community-resources' element={<CommunityResourcesPage />}></Route>
+        <Route path='/getting-started' element={<GettingStartedPage />}></Route>
+        <Route path='/blog' element={<BlogPage />}></Route>
+        <Route path='/faq' element={<FAQPage />}></Route>
+        <Route path='/gloassary' element={<GlossaryPage />}></Route>
+        <Route path='/how-the-asf-works' element={<HowTheASFWorksPage />}></Route>
+        <Route path='/leagal-trademark' element={<LegalTrademarkPage />}></Route>
+        <Route path='/licenses' element={<LicensesPage />}></Route>
+        <Route path='/projects' element={<ProjectsPage />}></Route>
+      </Route>
+      
     </Routes>
   );
 }
