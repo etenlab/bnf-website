@@ -41,12 +41,12 @@ function HomePage() {
                                 <div className='col-sm-12 text-center'>
                                     <div className='container public-good'>
                                         <h1 className='h3' id='software-for-the-public-good'>
-                                            Software for the Public Good
+                                            SOFTWARE FOR BIBLE TRANSLATION
                                         </h1>
                                         <p>
-                                            ASF&quot;s open source software is used ubiquitously
-                                            around the world with more than 8,400 committers
-                                            contributing to more than 320 active projects.
+                                            BNF’s open source software is crafted to accelerate
+                                            Bible translation, whether it is done by the local
+                                            church or traditional Bible translation organizations.
                                         </p>
                                         <p>
                                             <a
@@ -85,15 +85,10 @@ function HomePage() {
                                 <div className='mySlides'>
                                     <blockquote className='text-center'>
                                         <p>
-                                            &quot;The most popular open source software
-                                            is&nbsp;Apache…&quot;
+                                            &quot;This is a really interesting quote about the role
+                                            software/product plays in Bible translation&quot;
                                         </p>
-                                        <footer>
-                                            DZone,
-                                            <cite title='What Open Source Software Do You Use?'>
-                                                “What Open Source Software Do You&nbsp;Use?”
-                                            </cite>
-                                        </footer>
+                                        <footer>Duncan McCloud,</footer>
                                     </blockquote>
                                 </div>
                                 <div className='mySlides'>
@@ -134,9 +129,9 @@ function HomePage() {
                             Latest News
                         </h2>
                         <p>
-                            Keep up with the ASF&quot;s news and announcements by subscribing to the
+                            Keep up with the BNF’s news and announcements by subscribing to the
                             <a href='/foundation/mailinglists.html#foundation-announce'>
-                                Apache Announcements List
+                                BNF Announcements List
                             </a>
                             , as well as following the
                             <a href='https://news.apache.org/'>Foundation Blog</a>,
@@ -198,10 +193,9 @@ function HomePage() {
                             <div className='col-md-12'>
                                 <h2 id='about-the-foundation'>About the Foundation</h2>
                                 <p>
-                                    The ASF is a 501(c)(3) charitable organization run almost
-                                    exclusively by volunteers who oversee hundreds of projects. Our
-                                    sponsors enable us to maintain the infrastructure needed to
-                                    support them.
+                                    BiblioNexus is a 501(c)(3) charitable organization founded to
+                                    support the role of software within the Bible translation
+                                    movement.
                                 </p>
                                 <div className='container'>
                                     <div className='row'>
