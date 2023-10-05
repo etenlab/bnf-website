@@ -59,7 +59,7 @@ function Header() {
                             </NavDropdown.Item>
                         </NavDropdown> */}
                         <NavDropdown id='nav-dropdown-learn' title='Learn' menuVariant='light'>
-                            <NavDropdown.Item href='/blog'>Blog</NavDropdown.Item>
+                            {/* <NavDropdown.Item href='/blog'>Blog</NavDropdown.Item> */}
                             <NavDropdown.Item href='/how-the-bnf-works'>
                                 How the BNF Works
                             </NavDropdown.Item>
