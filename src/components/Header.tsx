@@ -44,7 +44,7 @@ function Header() {
                                 Report a Vulnerability
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <NavDropdown
+                        {/* <NavDropdown
                             id='nav-dropdown-download'
                             title='Download'
                             menuVariant='light'
@@ -57,7 +57,7 @@ function Header() {
                             <NavDropdown.Item href='/infrastructure-statistics'>
                                 Infrastructure Statistics
                             </NavDropdown.Item>
-                        </NavDropdown>
+                        </NavDropdown> */}
                         <NavDropdown id='nav-dropdown-learn' title='Learn' menuVariant='light'>
                             <NavDropdown.Item href='/blog'>Blog</NavDropdown.Item>
                             <NavDropdown.Item href='/how-the-bnf-works'>
