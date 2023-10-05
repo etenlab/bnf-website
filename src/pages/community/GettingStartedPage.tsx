@@ -3,10 +3,7 @@ function GettingStartedPage() {
         <>
             <section id='content' className='row'>
                 <div className='col-md-9'>
-                    <h3 className='text-muted'>BNF COMMUNITY DEVELOPMENT</h3>
-                </div>
-                <div className='col-md-12'>
-                    <h4 className='text-muted'>Community &gt; Code</h4>
+                    <h3 className='text-muted'>Getting Started</h3>
                 </div>
             </section>
             <nav aria-label='breadcrumb'>
@@ -14,49 +11,19 @@ function GettingStartedPage() {
                     <li className='breadcrumb-item'>
                         <a href='/'>Home</a>
                     </li>
+                    <li className='breadcrumb-item'>
+                        <a href='/getting-started'>Getting Started</a>
+                    </li>
                 </ol>
             </nav>
             <hr></hr>
-            <div id='search'>
-                <div className='pagefind-ui svelte-1bkqzc5 pagefind-ui--reset'>
-                    <form
-                        className='pagefind-ui__form svelte-1bkqzc5'
-                        role='search'
-                        aria-label='Search this site'
-                        action='javascript:void(0);'
-                    >
-                        <input
-                            className='pagefind-ui__search-input svelte-1bkqzc5'
-                            type='text'
-                            placeholder='Search'
-                        />
-                        <button className='pagefind-ui__search-clear svelte-1bkqzc5 pagefind-ui__suppressed'>
-                            Clear
-                        </button>
-                        <div className='pagefind-ui__drawer svelte-1bkqzc5 pagefind-ui__hidden'>
-                            {' '}
-                        </div>
-                    </form>
-                </div>
-            </div>
 
-            <div className='homepage-hero'>
-                <a
-                    target='_blank'
-                    rel='noreferrer'
-                    href='https://www.apache.org/events/current-event.html'
-                >
-                    <img
-                        className='events-logo'
-                        src='https://www.apache.org/events/current-event-125x125.png'
-                    />
-                </a>
-                <h2 id='asf-community-development'>BNF COMMUNITY DEVELOPMENT</h2>
-                <p>
-                    The ASF Community Development project creates and provides tools, processes, and
-                    advice to help open-source projects improve their own community health.
-                </p>
-            </div>
+            <p>
+                If you are interested in contributing to a BNF project, you should first make
+                contact with a current contributor on the project you are interested in. Since each
+                BNF project stands by itself with its own PMC, repositories, and channels, project
+                onboarding may be different from one project to the next.
+            </p>
 
             <div className='row'>
                 <div className='col-md-4'>

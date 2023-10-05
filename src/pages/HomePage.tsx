@@ -5,31 +5,14 @@ function HomePage() {
     return (
         <>
             <header id='main-header' className='container'>
-                <div className='sideImg'>
-                    <a
-                        className='visible-home'
-                        href='https://events.apache.org/x/current-event.html'
-                    >
-                        <img
-                            className='img-fluid'
-                            width='125'
-                            src={process.env.PUBLIC_URL + '/images/current-event-125x125.png'}
-                            alt='Apache Events'
-                        />
-                    </a>
-                    <a className='hidden-home' href='/'>
-                        <img
-                            className='img-fluid'
-                            src={process.env.PUBLIC_URL + '/images/asf-estd-1999-logo.jpg'}
-                            alt='The Apache Software Foundation'
-                        />
-                    </a>
-                </div>
                 <div className='main'>
                     <img
                         className='img-fluid center-block visible-home'
-                        src={process.env.PUBLIC_URL + '/images/asf-estd-1999-logo.jpg'}
-                        alt='Apache 20th Anniversary Logo'
+                        src={
+                            process.env.PUBLIC_URL +
+                            '/images/BiblioNexus_ID_FIN_BN_Embossed_PRIMARY_Transparent.png'
+                        }
+                        alt='BNF Logo'
                     />
                 </div>
             </header>
@@ -51,27 +34,27 @@ function HomePage() {
                                         <p>
                                             <a
                                                 className='btn btn-default mx-10'
-                                                href='/index.html#projects-list'
+                                                href='/projects'
                                                 role='button'
                                             >
                                                 See All Projects
                                             </a>
                                             <a
                                                 className='btn btn-default mx-10'
-                                                href='https://community.apache.org/'
+                                                href='getting-started'
                                                 role='button'
                                             >
                                                 Contribute
                                             </a>
                                         </p>
-                                        <img
+                                        {/* <img
                                             alt='Apache Everywhere'
                                             className='img-fluid'
                                             src={
                                                 process.env.PUBLIC_URL +
                                                 '/images/Fo3uP-ZX0AMe1od.jpg'
                                             }
-                                        />
+                                        /> */}
                                     </div>
                                 </div>
                             </div>
@@ -81,7 +64,7 @@ function HomePage() {
                 <section className='bg-primary' id='apacheQuotes'>
                     <div className='container'>
                         <div className='slideshow-container'>
-                            <Carousel showStatus={false} autoPlay={false} showThumbs={false}>
+                            {/* <Carousel showStatus={false} autoPlay={false} showThumbs={false}>
                                 <div className='mySlides'>
                                     <blockquote className='text-center'>
                                         <p>
@@ -119,11 +102,11 @@ function HomePage() {
                                         </footer>
                                     </blockquote>
                                 </div>
-                            </Carousel>
+                            </Carousel> */}
                         </div>
                     </div>
                 </section>
-                <section id='news'>
+                {/* <section id='news'>
                     <div className='container'>
                         <h2 className='no-btm-margin' id='latest-news'>
                             Latest News
@@ -186,7 +169,7 @@ function HomePage() {
                             </article>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 <section className='about-foundation bg-gray'>
                     <div className='container'>
                         <div className='row'>
@@ -226,7 +209,7 @@ function HomePage() {
                     <div className='container'>
                         <div className='row'>
                             <div className='col-sm-12'>
-                                <h2 id='apache-project-list'>Apache Project List</h2>
+                                <h2 id='apache-project-list'>BNF Project List</h2>
                             </div>
                             <div className='col-sm-2' id='by_category'>
                                 <ul className='list-unstyled'>
@@ -235,12 +218,12 @@ function HomePage() {
                                             href='http://attic.apache.org/'
                                             title='A home for dormant projects'
                                         >
-                                            Attic
+                                            Aquifer
                                         </a>
                                     </li>
                                     <li>
                                         <a href='https://projects.apache.org/projects.html?category#big-data'>
-                                            Big Data
+                                            crowdrocks
                                         </a>
                                     </li>
                                 </ul>
