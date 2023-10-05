@@ -90,14 +90,9 @@ function LeadershipPage() {
                     <h5>VP, BiblioNexus Foundation</h5>
 
                     <p>
-                        Michael Marshall is the Chief Strategist for the ETEN Innovation Lab.
-                        Stephen is married to Nik and they have three (allegedly) grown-up children.
-                        He lives just outside Belfast in Northern Ireland and, prior to serving with
-                        the Lab, was Senior V-P at Biblica, overseeing Bible translation and
-                        publishing, amongst other things. He tries to be as heavily involved in his
-                        local church as possible, especially in Sunday preaching and home group,
-                        albeit with a challenging travel schedule. He&apos;s a keen, but frustrated
-                        golfer, and an Ireland rugby fan!
+                        Michael Marshall is the crowdsourcing strategy leader for the ETEN
+                        Innovation Lab as well as a director within the BiblioNexus Foundation. He
+                        lives in Arlington, Texas with his wife Jocelyn and two children.
                     </p>
                 </div>
             </div>
