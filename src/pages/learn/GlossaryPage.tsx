@@ -33,16 +33,24 @@ function GlossaryPage() {
                 <dt id='Board'>Board</dt>
                 <dd>
                     <p>
-                        The three-person legal governing body of the BNF, elected by the members.
-                        The board provides the oversight of the BNF&apos;s activities and operation,
-                        and applies and enforces the BNF&apos;s bylaws. Among other things, the
-                        board approves or rejects resolutions brought before it, such as for the
-                        creation or dissolution of BNF projects , funding requests, legal concerns,
-                        and disciplinary actions. As an open and non-profit corporation, the BNF
-                        makes the minutes of board meetings publicly available. These minutes
-                        include all decisions not made in executive sessions. Also see Director.
+                        The three-person legal governing body of BiblioNexus, elected at the
+                        founding of the company by ETEN. The board provides the oversight of the
+                        BiblioNexus Studio and Foundation.
                     </p>
                 </dd>
+
+                <dt id='Governance'>Governance</dt>
+                <dd>
+                    <p>
+                        The three-person administrative body of the BNF, elected by the members.
+                        Governance provides the oversight of the BNF&apos;s activities and
+                        operation, and applies and enforces the BNF&apos;s bylaws. Among other
+                        things, Governance approves or rejects resolutions brought before it, such
+                        as for the creation or dissolution of BNF projects, funding requests, legal
+                        concerns, and disciplinary actions.
+                    </p>
+                </dd>
+
                 <dt id='Bikeshed'>Bikeshed Argument</dt>
                 <dd>
                     <p>
@@ -74,9 +82,9 @@ function GlossaryPage() {
                 <dt id='Chair'>Chair</dt>
                 <dd>
                     <p>
-                        <strong>1.</strong> The Chair of the <a href='#Board'>Board</a> of
-                        <a href='#Director'>Directors</a> of the <a href='#BNF'>BNF</a>, responsible
-                        for the orderly meeting and functioning of the Board.
+                        <strong>1.</strong> The Chair of the <a href='#Governance'>Governance</a>{' '}
+                        Board of the <a href='#BNF'>BNF</a>, responsible for the orderly meeting and
+                        functioning of Governance.
                         <strong>2.</strong> The official head of a committee, such as a Project
                         Management Committee <a href='#PMC'>PMC</a>. PMC Chairs are BNF
                         <a href='#Vice-President'>Vice Presidents</a> given charge of the proper
@@ -179,12 +187,20 @@ function GlossaryPage() {
                         known as &quot;contributors&quot;.
                     </p>
                 </dd>
+                <dt id='BoardDirector'>Board Director</dt>
+                <dd>
+                    <p>
+                        One of three individuals on the BiblioNexus board. Not to be confused with
+                        BNF <a href='#Governance'>Governance board</a> <a href='#Member'>members</a>
+                        .
+                    </p>
+                </dd>
                 <dt id='Director'>Director</dt>
                 <dd>
                     <p>
                         One of nine individuals elected annually by the
                         <a href='#Member'>members</a> to the BNF&apos;s
-                        <a href='#Board'>board of directors</a>. Directors may or may not have
+                        <a href='#Governance'>governance board</a>. Directors may or may not have
                         individual responsibilities, but all are generally expected to stay informed
                         about as much of the BNF&apos;s operations and activity as possible, since
                         the Board provides oversight for the Foundation as a whole.
@@ -379,9 +395,9 @@ function GlossaryPage() {
                         Project Management Committee, the group of people with formal oversight of a
                         <a href='#Project'>project</a>. The chair of a PMC is always an
                         <a href='#Officer'>officer</a> of the BNF. As the PMC has official oversight
-                        responsibilities assigned by the <a href='#Board'>Board</a> , its actions
-                        are considered to be on behalf of the BNF, with all the legal protections
-                        and responsibilities implied. See the
+                        responsibilities assigned by <a href='#Governance'>Governance</a> , its
+                        actions are considered to be on behalf of the BNF, with all the legal
+                        protections and responsibilities implied. See the
                         <a href='bylaws.html#6.3'>Bylaws</a>.
                     </p>
                 </dd>
@@ -398,7 +414,7 @@ function GlossaryPage() {
                 <dd>
                     <p>
                         Primary executive officer of the <a href='#BNF'>BNF</a> , serving at the
-                        direction of the <a href='#Board'>Board</a>.
+                        direction of <a href='#Governance'>Governance</a>.
                     </p>
                 </dd>
                 <dt id='Project'>Project</dt>
@@ -494,18 +510,11 @@ function GlossaryPage() {
                 <dt id='STV'>STV</dt>
                 <dd>
                     <p>
-                        Single Transferable Vote, used in Apache board elections for example. See
+                        Single Transferable Vote, used in Governance board elections for example.
+                        See
                         <a href='http://en.wikipedia.org/wiki/Single_Transferable_Vote'>
                             http://en.wikipedia.org/wiki/Single_Transferable_Vote
                         </a>
-                    </p>
-                </dd>
-                <dt id='tabled'>tabled</dt>
-                <dd>
-                    <p>
-                        The term &apos;tabled&apos; may be seen in minutes of Board meetings. For
-                        example, &quot;Special Order 7H, ... , was tabled.&quot; In that context it
-                        means &apos;postponed&apos; or &apos;deferred&apos;.
                     </p>
                 </dd>
                 <dt id='TLP'>TLP</dt>

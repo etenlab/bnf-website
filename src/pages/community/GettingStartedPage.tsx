@@ -30,7 +30,8 @@ function GettingStartedPage() {
                     <h4 id='asf-newcomers'>THE FOUNDATION</h4>
                     <p>
                         BiblioNexus is a US 501(c)3 non-profit public charity. The BiblioNexus
-                        Foundation (“BNF”) is governed by a Board of Directors.
+                        Foundation (“BNF”) is governed by a Board of Directors and a Governance
+                        Board.
                     </p>
                     <p>
                         Our mission is to create software for the Bible translation movement that we

@@ -2,21 +2,7 @@ function HowTheBNFWorksPage() {
     return (
         <>
             <h1 id='how-the-bnf-works'>How the BNF Works</h1>
-            <div
-                className='.pull-right'
-                style={{
-                    float: 'right',
-                    borderStyle: 'dotted',
-                    width: '200px',
-                    padding: '5px',
-                    margin: '5px',
-                }}
-            >
-                <p>
-                    If you&apos;re curious about more governance details, we have a description of
-                    BNF style governance.
-                </p>
-            </div>
+
             <p>
                 If you&apos;re curious about more governance details, we have a description of BNF
                 style governance.
@@ -25,8 +11,8 @@ function HowTheBNFWorksPage() {
                 This page provides an overview of everything you always wanted to know about the
                 BiblioNexus Foundation but were afraid to ask: the difference between membership and
                 committership, who decides what, how elections take place, how our infrastructure is
-                set up, what the board is and does, and what a PMC is. Come and see behind the
-                scenes of the BNF.
+                set up, what the governance board is and does, and what a PMC is. Come and see
+                behind the scenes of the BNF.
             </p>
             <ul>
                 <li>
@@ -69,7 +55,8 @@ function HowTheBNFWorksPage() {
             <p>
                 BiblioNexus is a 501(c)3 non-profit public charity organization incorporated in the
                 United States of America. It was formed in 2023 primarily to serve the digital
-                product development needs of the Bible translation movement.
+                product development needs of the Bible translation movement. BiblioNexus is composed
+                of two organizational units: Studio (BNS) and Foundation (BNF).
             </p>
 
             <h2 id='meritocracy'>THE BNF STRUCTURE</h2>
@@ -77,10 +64,18 @@ function HowTheBNFWorksPage() {
             <ul>
                 <li>
                     <p>
-                        The Board of Directors (board) governs BiblioNexus and is composed of board
-                        members.
+                        The Board of Directors (Board) governs BiblioNexus and is composed of board
+                        of director members.
                     </p>
                 </li>
+
+                <li>
+                    <p>
+                        The BNF Governance Board (Governance) administers the BiblioNexus Foundation
+                        and is composed of governance board members.
+                    </p>
+                </li>
+
                 <li>
                     <p>
                         Project Management Committees (PMCs) govern the projects, and each is
@@ -89,7 +84,7 @@ function HowTheBNFWorksPage() {
                 </li>
                 <li>
                     <p>
-                        Various Officers of the corporation, appointed by the board, who set
+                        Various Officers of the BNF, appointed by Governance, who set
                         Foundation-wide policies in specific areas (legal, brand, fundraising, etc.)
                     </p>
                 </li>
@@ -99,41 +94,48 @@ function HowTheBNFWorksPage() {
 
             <h2 id='structure'>BOARD OF DIRECTORS (BOARD)</h2>
             <p>
-                The board is responsible for management and oversight of the business and affairs of
-                the corporation in accordance with the foundation Bylaws. This includes management
-                of the corporate assets (funds, intellectual property, trademarks, and support
-                equipment) and allocation of corporate resources to projects.
+                The board of directors is responsible for management and oversight of the entire
+                BiblioNexus organization, both Studio and Foundation, in accordance with the
+                BiblioNexus Bylaws.
+            </p>
+
+            <h2 id='structure'>GOVERNANCE BOARD (GOVERNANCE)</h2>
+            <p>
+                The governance board is responsible for management and oversight of the business and
+                affairs of the BiblioNexus Foundation in accordance with the foundation Bylaws. This
+                includes management of the foundation&apos;s assets (funds, intellectual property,
+                trademarks, and support equipment) and allocation of corporate resources to
+                projects.
             </p>
             <p>
-                The board of directors is also able to impose technical restrictions and
-                requirements on PMCs to ensure all projects within BNF are in alignment with the
-                overall purpose of the BNF, which is to accelerate Bible translation through
-                excellence in digital products.
+                Governance is also able to impose technical restrictions and requirements on PMCs to
+                ensure all projects within BNF are in alignment with the overall purpose of the BNF,
+                which is to accelerate Bible translation through excellence in digital products.
             </p>
             <p>
-                The board is currently composed of three individuals, one of which represents the
+                Governance is currently composed of three individuals, one of which represents the
                 ETEN subcommitte on acceleration. The bylaws don&apos;t specify the number of board
                 members that the foundation should have, but this was the number of the first board
-                and it has not yet been changed. The board is elected every year.
+                and it has not yet been changed. Governance is elected every year.
             </p>
             <p>The board website has more information and the list of the current directors.</p>
 
             <h3 id='board'>PROJECT MANAGEMENT COMMITTEES (PMC)</h3>
             <p>
-                The Board establishes Project Management Committees (PMCs) to be responsible for the
-                active management of one or more specific communities.
+                The Governance establishes Project Management Committees (PMCs) to be responsible
+                for the active management of one or more specific communities.
             </p>
             <p>
                 Each PMC includes at least one officer of the BNF, who shall be designated its
                 chair, and may include one or more other members of the BNF.
             </p>
             <p>
-                The Board appoints the chair of the PMC, who also becomes an officer (Vice
-                President) of the BNF. The chair has primary responsibility to the Board, and has
-                the power to establish rules and procedures for the day to day management of the
-                communities for which the PMC is responsible, including the composition of the PMC
-                itself. See further discussion about the role of the PMC chair and why chairs are
-                officers.
+                Governance appoints the chair of the PMC, who also becomes an officer (Vice
+                President) of the BNF. The chair has primary responsibility to the governance board,
+                and has the power to establish rules and procedures for the day to day management of
+                the communities for which the PMC is responsible, including the composition of the
+                PMC itself. See further discussion about the role of the PMC chair and why chairs
+                are officers.
             </p>
             <p>The BNF Bylaws (section 6.3) define a PMC and the position of chair.</p>
             <p>
@@ -157,10 +159,10 @@ function HowTheBNFWorksPage() {
             </p>
             <p>
                 However those on the PMC are held to a higher standard. The PMC, and the chair in
-                particular, are the eyes and ears of the BNF Board, so we rely on and need to trust
-                you to provide legal oversight.
+                particular, are the eyes and ears of the BNF governance board, so we rely on and
+                need to trust you to provide legal oversight.
             </p>
-            <p>The board can terminate a PMC at any time by resolution.</p>
+            <p>Governance can terminate a PMC at any time by resolution.</p>
             <p>
                 The BiblioNexus Developer Information pages have more details of how PMCs work. A
                 complete list of all BNF projects is also available.
@@ -168,8 +170,8 @@ function HowTheBNFWorksPage() {
 
             <h3 id='officers'>Officers</h3>
             <p>
-                The officers of BiblioNexus oversee the day-to-day affairs of the Foundation. The
-                Board of Directors elects these officers.
+                The officers of the BiblioNexus Foundation oversee the day-to-day affairs of the
+                Foundation. Governance elects these officers.
             </p>
             <h2 id='roles'>ROLES</h2>
             <p>
@@ -220,9 +222,9 @@ function HowTheBNFWorksPage() {
             </p>
             <h3 id='pmc-chair'>PMC Chair</h3>
             <p>
-                The Board appoints the Chair of a PMC from the PMC members. The PMC as a whole is
+                Governance appoints the Chair of a PMC from the PMC members. The PMC as a whole is
                 the group that controls and leads the project. The Chair is the interface between
-                the Board and the Project. PMC Chairs have specific duties.
+                Governance and the Project. PMC Chairs have specific duties.
             </p>
             <h3 id='bnf-members'>BNF Member</h3>
             <p>
@@ -230,8 +232,8 @@ function HowTheBNFWorksPage() {
                 merit for the evolution and progress of the foundation. Members care for the BNF
                 itself, usually through project-related and cross-project activities. Legally, a
                 member is a &quot;shareholder&quot; of the foundation, one of the owners. They have
-                the right to elect the board, to stand as a candidate for board election and to
-                propose a committer for membership. They also have the right to propose a new
+                the right to elect Governance, to stand as a candidate for governance board election
+                and to propose a committer for membership. They also have the right to propose a new
                 project for incubation (we&apos;ll see later what this means). The members
                 coordinate their activities through their mailing list and through their annual
                 meeting. We have a full listing of BiblioNexus Members.
@@ -240,7 +242,7 @@ function HowTheBNFWorksPage() {
             <h3 id='sponsor'>SPONSOR</h3>
             <p>
                 Sponsors contribute resources to begin or maintain a project. They may, at the
-                discretion of the board of directors, be appointed as a PMC member.
+                discretion of Governance, be appointed as a PMC member.
             </p>
 
             <h3 id='donor'>DONOR</h3>
@@ -257,8 +259,8 @@ function HowTheBNFWorksPage() {
             </p>
             <p>
                 Since the appointed PMCs have the power to create their own self-governing rules
-                within the limits placed by the board of directors, there is no single vision on how
-                PMCs should run their projects and nurture the communities they lead.
+                within the limits placed by Governance, there is no single vision on how PMCs should
+                run their projects and nurture the communities they lead.
             </p>
             <p>
                 At the same time, while there are some differences, there are a number of
@@ -370,7 +372,7 @@ function HowTheBNFWorksPage() {
 
             <h3 id='hats'>Individuals compose the BNF</h3>
             <p>
-                All of the BNF including the board, the officers, the committers, and the members,
+                All of the BNF including Governance, the officers, the committers, and the members,
                 are participating as individuals. That is one strength of the BNF: personal
                 affiliations do not cloud the person&apos;s contributions.
             </p>
@@ -381,7 +383,7 @@ function HowTheBNFWorksPage() {
                 signing their paychecks right now, and not even as a director of the BNF.
             </p>
             <p>
-                All BNF participants implicitly have multiple hats, especially the Board, the
+                All BNF participants implicitly have multiple hats, especially Governance, the
                 officers, and the PMC chairs. They sometimes need to talk about a matter of policy,
                 so to avoid appearing to be expressing a personal opinion, they will state that they
                 are talking in their special capacity. However, most of the time this is not
