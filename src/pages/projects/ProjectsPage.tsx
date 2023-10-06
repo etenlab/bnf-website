@@ -2,7 +2,7 @@ function ProjectsPage() {
     return (
         <>
             <div className='container'>
-                <h1 id='asf-open-source-projects'>BNF Open Source Projects</h1>
+                <h1 id='bnf-open-source-projects'>BNF Open Source Projects</h1>
 
                 <p>
                     <p>Aquifer</p>

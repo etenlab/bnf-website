@@ -5,9 +5,6 @@ function BecomingCommitterPage() {
                 <div className='col-md-9'>
                     <h3 className='mt-3 text-muted'>Becoming a Committer</h3>
                 </div>
-                <div className='col-md-12'>
-                    <h4 className='text-muted'>Community &gt; Code</h4>
-                </div>
             </section>
 
             <nav aria-label='breadcrumb'>
@@ -21,24 +18,7 @@ function BecomingCommitterPage() {
                 </ol>
             </nav>
             <hr />
-
-            <ul className='tags-list'>
-                <li>
-                    <a href='https://community.apache.org/tags/faq.html'>faq</a>
-                </li>
-                <li>
-                    <a href='https://community.apache.org/tags/navigation.html'>navigation</a>
-                </li>
-                <li>
-                    <a href='https://community.apache.org/tags/contributing.html'>contributing</a>
-                </li>
-            </ul>
-
-            <p>
-                If you are interested in contributing to a BNF project, you should first make
-                contact with a current contributor on the project you are interested in. Since each
-                BNF project stands
-            </p>
+            {/* 
             <h2 id='project-independence-and-policies'>
                 Project Independence And Policies{' '}
                 <a
@@ -50,9 +30,9 @@ function BecomingCommitterPage() {
                 </a>
             </h2>
             <p>
-                While not all ASF projects practice all aspects of the Apache Way in the same way,
-                there are a number of rules that Apache projects must follow – things like complying
-                with PMC
+                While not all BNF projects practice all aspects of the BiblioNexus Way in the same
+                way, there are a number of rules that BNF projects must follow – things like
+                complying with PMC
                 <a href='https://www.apache.org/legal/release-policy.html'>release voting</a>,{' '}
                 <a href='https://www.apache.org/legal/'>legal policy</a>,{' '}
                 <a href='https://www.apache.org/foundation/marks/'>brand policy</a>, using{' '}
@@ -88,7 +68,7 @@ function BecomingCommitterPage() {
                     <strong>If it didn’t happen on the mailing list, it didn’t happen</strong>
                 </a>
                 .
-            </p>
+            </p> */}
             <h2 id='moving-from-contributor-to-committer'>
                 Moving From Contributor to Committer{' '}
                 <a
@@ -100,14 +80,14 @@ function BecomingCommitterPage() {
                 </a>
             </h2>
             <p>
-                Anyone can be a contributor to an Apache project. Being a contributor simply means
-                that you take an interest in the project and contribute in some way, ranging from
-                asking sensible questions (which document the project and provide feedback to
-                developers) through to providing new features as code patches.
+                Anyone can be a contributor to a BNF project. Being a contributor simply means that
+                you take an interest in the project and contribute in some way, ranging from asking
+                sensible questions (which document the project and provide feedback to developers)
+                through to providing new features as code patches.
             </p>
             <p>
                 If you become a valuable contributor to the project, the Project Management
-                Committee (PMC) may invite you to become a <em>committer</em>. At the ASF, a
+                Committee (PMC) may invite you to become a <em>committer</em>. At the BNF, a
                 committer is someone who is committed to a particular project. It brings with it the
                 privilege of write access to the project repository and resources. In many projects,
                 committers may also be invited to be part of the core group within the project that
@@ -116,23 +96,23 @@ function BecomingCommitterPage() {
             </p>
             <p>
                 One thing that is sometimes hard to understand, when you are new to the open
-                development process used at the ASF, is that we value the community more than the
+                development process used at the BNF, is that we value the community more than the
                 code. A strong and healthy community will be respectful and be a fun and rewarding
                 place. More importantly, a diverse and healthy community can continue to support the
                 code over the longer term, even as individual contributors come and go from the
                 field.
             </p>
-            <p>
+            {/* <p>
                 In particular, we have some{' '}
                 <a href='/contributors/etiquette'>etiquette and behavior expectations</a> when you
-                work with Apache communities.
+                work with BNF communities.
             </p>
             <p>
                 See also this{' '}
                 <a href='/contributors/becomingacommitter.html'>
                     detailed advice for how to become a committer
                 </a>
-            </p>
+            </p> */}
             <h2 id='anyone-can-become-a-committer'>
                 Anyone Can Become A Committer{' '}
                 <a className='headerlink' title='Permalink' href='#anyone-can-become-a-committer'>
@@ -140,12 +120,12 @@ function BecomingCommitterPage() {
                 </a>
             </h2>
             <p>
-                There is nothing at the Apache Software Foundation that says you must write code in
+                There is nothing at the BiblioNexus Foundation that says you must write code in
                 order to be a committer. Anyone who is supportive of the community and works in any
                 of the CoPDoC areas is a likely candidate for committership.
             </p>
             <p>
-                Apache strives to be meritocratic. That is, once someone has contributed
+                The BNF strives to be meritocratic. That is, once someone has contributed
                 sufficiently to any area of CoPDoC they can be voted in as a committer. Being a
                 committer does not necessarily mean you commit code; it means you are committed to
                 the project and are productively contributing to its success.
@@ -162,21 +142,12 @@ function BecomingCommitterPage() {
                 write code.
             </p>
             <p>
-                For more details see “
-                <a href='https://www.apache.org/foundation/how-it-works.html'>How it works</a>”. You
-                can also make{' '}
-                <a href='/newbiefaq.html#websitecms'>suggestions for how to update this website</a>{' '}
-                you’re reading right now!
+                For more details see “<a href='/how-the-bnf-works'>How it works</a>”.
             </p>
             <h2 id='questions-and-feedback'>Questions and Feedback </h2>
             <p>
-                You can provide feedback and ask questions by subscribing to our mailing list: send
-                an email to{' '}
-                <a href='mailto:dev-subscribe@community.apache.org'>
-                    dev-subscribe@community.apache.org
-                </a>
-                . Once subscribed, you can send your mail to{' '}
-                <a href='mailto:dev@community.apache.org'>dev@community.apache.org</a>.
+                You can provide feedback and ask questions by sending an email to{' '}
+                <a href='mailto:development@biblionexus.org'>development@biblionexus.org</a>.
             </p>
         </>
     );

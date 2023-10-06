@@ -18,12 +18,12 @@ function Footer() {
                                         Becoming a Committer
                                     </a>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <a href='/code-of-conduct'>Code of Conduct</a>
-                                </li>
-                                <li>
+                                </li> */}
+                                {/* <li>
                                     <a href='/community-resources'>Community Resources</a>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
 
@@ -39,11 +39,11 @@ function Footer() {
                         <div className='col-sm-3'>
                             <h5 className='white'>Learn</h5>
                             <ul className='list-unstyled white' role='menu'>
-                                <li>
+                                {/* <li>
                                     <a href='/blog'>Blog</a>
-                                </li>
+                                </li> */}
                                 <li>
-                                    <a href='/how-the-asf-works'>How the ASF Works</a>
+                                    <a href='/how-the-bnf-works'>How the BNF Works</a>
                                 </li>
                                 <li>
                                     <a href='/leagal-trademark'>Legal &amp; Trademark</a>

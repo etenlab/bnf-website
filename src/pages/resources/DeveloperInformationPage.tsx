@@ -11,7 +11,7 @@ function DeveloperInformationPage() {
                 If you can&apos;t find information here, ask on your project&apos;s mailing list, or
                 contact the <a href='http://community.apache.org/'>Community Development</a>{' '}
                 project&apos;s mailing list for more general questions. There are many experienced
-                ASF people ready to help.
+                BNF people ready to help.
             </p>
             <ul>
                 <li>
@@ -52,7 +52,7 @@ function DeveloperInformationPage() {
                     </ul>
                 </li>
                 <li>
-                    <a href='/foundation/governance/'>Board of Directors and ASF Governance</a>
+                    <a href='/foundation/governance/'>Board of Directors and BNF Governance</a>
                 </li>
             </ul>
             <h2 id='infrastructure'>
@@ -62,7 +62,7 @@ function DeveloperInformationPage() {
                 </a>
             </h2>
             <p>
-                Here are links to high-level information about The ASF&apos;s infrastructure, and
+                Here are links to high-level information about The BNF&apos;s infrastructure, and
                 the Infrastructure team (Infra) that maintains it.
             </p>
             <p>
@@ -134,9 +134,9 @@ function DeveloperInformationPage() {
             </h2>
             <ul>
                 <li>
-                    <a href='../foundation/how-it-works.html'>How the ASF works</a> (See also
+                    <a href='../foundation/how-it-works.html'>How the BNF works</a> (See also
                     <a href='../foundation/preFAQ.html'>Contact Apache FAQ</a> and
-                    <a href='../foundation/faq.html'>ASF FAQ</a> )
+                    <a href='../foundation/faq.html'>BNF FAQ</a> )
                 </li>
                 <li>
                     <a href='contributors.html'>Guide for project contributors</a>
@@ -185,10 +185,10 @@ function DeveloperInformationPage() {
             </p>
             <ul>
                 <li>
-                    ...<a href='project-creation.html'>create an ASF Top-Level Project</a>
+                    ...<a href='project-creation.html'>create an BNF Top-Level Project</a>
                 </li>
                 <li>
-                    ...<a href='project-names.html'>choose names for ASF projects and products</a>
+                    ...<a href='project-names.html'>choose names for BNF projects and products</a>
                 </li>
                 <li>
                     ...<a href='pmc.html#newcommitter'>request a new committer account</a>
@@ -233,7 +233,7 @@ function DeveloperInformationPage() {
                 </li>
                 <li>
                     <a href='../legal/src-headers.html'>
-                        ASF source header and copyright notice policy
+                        BNF source header and copyright notice policy
                     </a>
                 </li>
                 <li>

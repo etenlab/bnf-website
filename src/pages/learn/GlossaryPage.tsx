@@ -1,7 +1,7 @@
 function GlossaryPage() {
     return (
         <>
-            <h1 id='asf-glossary'>BNF Glossary</h1>
+            <h1 id='bnf-glossary'>BNF Glossary</h1>
             <p>
                 This glossary provides a brief description of some of the organizational terms used
                 at the BNF and in BNF projects. For more information about anything regarding the
@@ -25,7 +25,7 @@ function GlossaryPage() {
                         active work.
                     </p>
                 </dd>
-                <dt id='ASF'>BNF</dt>
+                <dt id='BNF'>BNF</dt>
                 <dd>
                     <p>The BiblioNexus Foundation, a non-profit organization.</p>
                 </dd>

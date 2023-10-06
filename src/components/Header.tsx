@@ -24,15 +24,12 @@ function Header() {
                             <NavDropdown.Item href='/becoming-committer'>
                                 Becoming a Committer
                             </NavDropdown.Item>
-                            <NavDropdown.Item href='/code-of-conduct'>
+                            {/* <NavDropdown.Item href='/code-of-conduct'>
                                 Code of Conduct
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href='/community-resources'>
+                            </NavDropdown.Item> */}
+                            {/* <NavDropdown.Item href='/community-resources'>
                                 Community Resources
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href='/community-over-code'>
-                                Community Over Code
-                            </NavDropdown.Item>
+                            </NavDropdown.Item> */}
                         </NavDropdown>
                         <NavDropdown
                             id='nav-dropdown-projects'
@@ -63,9 +60,9 @@ function Header() {
                             <NavDropdown.Item href='/how-the-bnf-works'>
                                 How the BNF Works
                             </NavDropdown.Item>
-                            <NavDropdown.Item href='/the-biblionexus-way'>
+                            {/* <NavDropdown.Item href='/the-biblionexus-way'>
                                 The BiblioNexus Way
-                            </NavDropdown.Item>
+                            </NavDropdown.Item> */}
                             <NavDropdown.Item href='/leagal-trademark'>
                                 Legal &amp; Trademark
                             </NavDropdown.Item>
@@ -78,19 +75,19 @@ function Header() {
                             title='Resources & Tools'
                             menuVariant='light'
                         >
-                            <NavDropdown.Item href='/developer-information'>
+                            {/* <NavDropdown.Item href='/developer-information'>
                                 Developer Information
                             </NavDropdown.Item>
                             <NavDropdown.Item href='/wiki'>Wiki</NavDropdown.Item>
-                            <NavDropdown.Item href='/issues'>Issues</NavDropdown.Item>
+                            <NavDropdown.Item href='/issues'>Issues</NavDropdown.Item> */}
                             <NavDropdown.Item href='/slack'>Slack</NavDropdown.Item>
-                            <NavDropdown.Item href='/self-serve-portal'>
+                            {/* <NavDropdown.Item href='/self-serve-portal'>
                                 Self Serve Portal
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href='/infrastructure'>
+                            </NavDropdown.Item> */}
+                            {/* <NavDropdown.Item href='/infrastructure'>
                                 Infrastructure
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href='/whimsy'>Whimsy</NavDropdown.Item>
+                            </NavDropdown.Item> */}
+                            {/* <NavDropdown.Item href='/whimsy'>Whimsy</NavDropdown.Item> */}
                         </NavDropdown>
                         <NavDropdown id='nav-dropdown-about' title='About' menuVariant='light'>
                             <NavDropdown.Item href='/about'>About</NavDropdown.Item>

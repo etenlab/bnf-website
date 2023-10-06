@@ -184,17 +184,10 @@ function HomePage() {
                                         <p>
                                             <a
                                                 className='btn btn-default btn-sm'
-                                                href='/foundation/'
+                                                href='/how-the-bnf-works'
                                                 role='button'
                                             >
                                                 Governance
-                                            </a>
-                                            <a
-                                                className='btn btn-default btn-sm'
-                                                href='/foundation/thanks'
-                                                role='button'
-                                            >
-                                                See our sponsors
                                             </a>
                                         </p>
                                         <div></div>
@@ -212,19 +205,8 @@ function HomePage() {
                             </div>
                             <div className='col-sm-2' id='by_category'>
                                 <ul className='list-unstyled'>
-                                    <li>
-                                        <a
-                                            href='http://attic.apache.org/'
-                                            title='A home for dormant projects'
-                                        >
-                                            Aquifer
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href='https://projects.apache.org/projects.html?category#big-data'>
-                                            crowdrocks
-                                        </a>
-                                    </li>
+                                    <li>Aquifer</li>
+                                    <li>crowdrocks</li>
                                 </ul>
                             </div>
                         </div>

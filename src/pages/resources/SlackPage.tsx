@@ -1,7 +1,7 @@
 function SlackPage() {
     return (
         <>
-            <h1 id='asf-glossary'>Slack for ASF projects</h1>
+            <h1 id='bnf-glossary'>Slack for BNF projects</h1>
             <p>
                 The BiblioNexus Foundation has a workspace on Slack to provide channels on which
                 people working on the same BNF project, or in the same area of the BNF, can discuss

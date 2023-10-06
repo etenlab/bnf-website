@@ -1,7 +1,7 @@
 function HowTheBNFWorksPage() {
     return (
         <>
-            <h1 id='how-the-asf-works'>How the BNF Works</h1>
+            <h1 id='how-the-bnf-works'>How the BNF Works</h1>
             <div
                 className='.pull-right'
                 style={{
@@ -151,7 +151,7 @@ function HowTheBNFWorksPage() {
                 social structures.
             </p>
             <p>
-                We firmly believe in hats. Your role at the ASF is one assigned to you personally,
+                We firmly believe in hats. Your role at the BNF is one assigned to you personally,
                 and is bestowed on you by your peers. It is not tied to your job or current employer
                 or company.
             </p>
@@ -180,7 +180,7 @@ function HowTheBNFWorksPage() {
                 <code>
                     <a href='#users'>user</a> | <a href='#developers'>contributor</a> |{' '}
                     <a href='#committers'>committer</a>| <a href='#pmc-members'>PMC member</a> |{' '}
-                    <a href='#pmc-chair'>PMC chair</a> | <a href='#asf-members'>BNF member</a>
+                    <a href='#pmc-chair'>PMC chair</a> | <a href='#bnf-members'>BNF member</a>
                 </code>
             </p>
             <h3 id='users'>User</h3>
@@ -224,7 +224,7 @@ function HowTheBNFWorksPage() {
                 the group that controls and leads the project. The Chair is the interface between
                 the Board and the Project. PMC Chairs have specific duties.
             </p>
-            <h3 id='asf-members'>BNF Member</h3>
+            <h3 id='bnf-members'>BNF Member</h3>
             <p>
                 A BNF member is a person who was nominated by current members and elected due to
                 merit for the evolution and progress of the foundation. Members care for the BNF
@@ -368,7 +368,7 @@ function HowTheBNFWorksPage() {
                 relations, and infrastructure system administration.
             </p>
 
-            <h3 id='hats'>Individuals compose the ASF</h3>
+            <h3 id='hats'>Individuals compose the BNF</h3>
             <p>
                 All of the BNF including the board, the officers, the committers, and the members,
                 are participating as individuals. That is one strength of the BNF: personal

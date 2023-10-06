@@ -2,7 +2,7 @@ function FAQPage() {
     return (
         <div className='faq'>
             <h2 id='foundation'>BiblioNexus Studio FAQ’s</h2>
-            <h3 id='is-the-apache-software-foundation-asf-a-corporation'>
+            <h3 id='is-the-apache-software-foundation-bnf-a-corporation'>
                 What is “Product-market fit”?
             </h3>
             <p>
@@ -19,7 +19,7 @@ function FAQPage() {
                 and doing so will require the best entrepreneurial minds of BiblioNexus Studio
                 coming alongside BT orgs to bring focus.
             </p>
-            <h3 id='how-does-the-asf-help-its-projects'>
+            <h3 id='how-does-the-bnf-help-its-projects'>
                 Will software products produced by BiblioNexus Studio be licensed as open source?
             </h3>
             <p>

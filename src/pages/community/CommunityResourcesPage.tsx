@@ -16,30 +16,30 @@ function CommunityResourcesPage() {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    {/* <tr>
                         <td>
                             <a href='#'>BNF Code of Conduct</a>
                         </td>
                         <td>We expect everyone who participates to honor our code of conduct.</td>
-                    </tr>
+                    </tr> */}
                     <tr>
                         <td>
                             <a href='#'>BNF Committer Directory</a>
                         </td>
-                        <td>An index of projects and committers for every ASF project.</td>
+                        <td>An index of projects and committers for every BNF project.</td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                         <td>
                             <a href='#'>Community Events</a>
                         </td>
-                        <td>Calendar of upcoming community and ASF events.</td>
-                    </tr>
+                        <td>Calendar of upcoming community and BNF events.</td>
+                    </tr> */}
                     <tr>
                         <td>
                             <a href='#'>Contributor Getting Started</a>
                         </td>
                         <td>
-                            The best place to learn how to get started contributing to ASF projects.
+                            The best place to learn how to get started contributing to BNF projects.
                         </td>
                     </tr>
                     <tr>

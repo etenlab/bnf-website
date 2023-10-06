@@ -30,7 +30,7 @@ function LicensesPage() {
                 <tbody>
                     <tr>
                         <td>
-                            <a href='LICENSE-2.0'>MIT license</a>
+                            <a href='https://opensource.org/license/mit/'>MIT license</a>
                         </td>
                         <td>Our current license</td>
                         <td id='2.0'></td>
@@ -38,13 +38,10 @@ function LicensesPage() {
                 </tbody>
             </table>
             <h2 id='contributor-license-agreements'>Contributor License Agreements</h2>
-            <p>
-                For information regarding our CLAs, please consult the{' '}
-                <a href='/licenses/contributor-agreements.html'>
-                    BNF Contributor License Agreements
-                </a>
-                page.
-            </p>
+            {/* <p>
+                For information regarding our CLAs, please consult the BNF Contributor License
+                Agreements page.
+            </p> */}
             <table className='table'>
                 <thead>
                     <tr>
@@ -55,25 +52,17 @@ function LicensesPage() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>
-                            <a href='/licenses/contributor-agreements.html#clas'>CLAs</a>
-                        </td>
+                        <td>CLAs</td>
                         <td>BNF CLAs</td>
                         <td id='clas'></td>
                     </tr>
                     <tr>
-                        <td>
-                            <a href='/licenses/contributor-agreements.html#grants'>
-                                Software Grant
-                            </a>
-                        </td>
+                        <td>Software Grant</td>
                         <td>One-off software license to the BNF</td>
                         <td id='grants'></td>
                     </tr>
                     <tr>
-                        <td>
-                            <a href='/licenses/contributor-agreements.html#submitting'>How To</a>
-                        </td>
+                        <td>How To</td>
                         <td>How to submit CLAs/Software Grant</td>
                         <td id='submitting'></td>
                     </tr>
@@ -90,16 +79,7 @@ function LicensesPage() {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>
-                            <a href='/licenses/exports/'>BNF Export Classifications</a>
-                        </td>
-                        <td>U.S. Export Classifications</td>
-                        <td id='crypto'></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a href='/foundation/marks/'>BNF Trademark Use Policy</a>
-                        </td>
+                        <td>BNF Trademark Use Policy</td>
                         <td>Policy on using BNF Trademarks</td>
                         <td id='trademarks'></td>
                     </tr>
@@ -107,9 +87,8 @@ function LicensesPage() {
             </table>
             <h2 id='questions'>Questions?</h2>
             <p>
-                For answers to frequently asked licensing questions, please consult our
-                <a href='/foundation/license-faq.html'>Licensing Frequently Asked Questions</a>
-                page.
+                For answers to frequently asked licensing questions, please consult our{' '}
+                <a href='/faq'>Frequently Asked Questions</a> page.
             </p>
         </>
     );

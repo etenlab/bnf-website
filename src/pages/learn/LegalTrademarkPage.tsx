@@ -1,7 +1,7 @@
 function LegalTrademarkPage() {
     return (
         <>
-            <h1 id='asf-legal-trademark'>BNF Legal &amp; Trademark</h1>
+            <h1 id='bnf-legal-trademark'>BNF Legal &amp; Trademark</h1>
             <h3 id='user-links'>Legal Information for Users of BiblioNexus Products</h3>
             <p>
                 The following pages provide information for users of BiblioNexus Products (i.e.
@@ -139,7 +139,7 @@ function LegalTrademarkPage() {
                     </tr>
                     <tr>
                         <td>
-                            <a href='https://svn.apache.org/repos/asf/infrastructure/site/trunk/archive/legal/3party.mdtext'>
+                            <a href='https://svn.apache.org/repos/bnf/infrastructure/site/trunk/archive/legal/3party.mdtext'>
                                 Draft Third-Party Licensing Policy
                             </a>
                         </td>

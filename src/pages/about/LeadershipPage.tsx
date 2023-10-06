@@ -1,7 +1,7 @@
 function LeadershipPage() {
     return (
         <>
-            <h1 id='asf-leadership'>BNF Leadership</h1>
+            <h1 id='bnf-leadership'>BNF Leadership</h1>
             <div className='row'>
                 <div className='col-md-4'>
                     <div className='img-leadership'>
