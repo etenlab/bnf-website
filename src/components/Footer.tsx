@@ -93,7 +93,7 @@ function Footer() {
                             </p>
                             <p className='text-center'>
                                 BiblioNexus, BiblioNexus Foundation, and BiblioNexus Studio are
-                                trademarks of BiblioNexus.
+                                trademarks of BiblioNexus, Inc.
                             </p>
                         </div>
                     </div>

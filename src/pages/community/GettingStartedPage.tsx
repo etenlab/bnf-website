@@ -43,8 +43,8 @@ function GettingStartedPage() {
                     <h4 id='events'>HOW TO ASK QUESTIONS</h4>
                     <p>
                         Please email development@biblionexus.org with any questions you may have. If
-                        you are a project member, the BNF has a Slack workplace you may also ask
-                        questions in.
+                        you are a project member, BNF has a Slack workplace where you may also ask
+                        questions.
                     </p>
                 </div>
             </div>

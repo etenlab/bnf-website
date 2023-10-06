@@ -3,8 +3,8 @@ function AboutPage() {
         <>
             <h1 id='software-for-the-public-good'>About</h1>
             <p>
-                BiblioNexus is a 501(c)(3) charitable organization consisting of two separate but
-                related units:
+                BiblioNexus, Inc is a 501(c)(3) charitable organization consisting of two separate
+                but related units:
             </p>
 
             <ul>
@@ -47,7 +47,9 @@ function AboutPage() {
                     </ul>
                 </li>
             </ul>
-            <p>Follow us on LinkedIn.</p>
+            <p>
+                Follow us on <a href='https://www.linkedin.com/company/biblionexus/'> LinkedIn</a>.
+            </p>
         </>
     );
 }

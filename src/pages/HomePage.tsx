@@ -175,9 +175,9 @@ function HomePage() {
                             <div className='col-md-12'>
                                 <h2 id='about-the-foundation'>About the Foundation</h2>
                                 <p>
-                                    BiblioNexus is a 501(c)(3) charitable organization founded to
-                                    support the role of software within the Bible translation
-                                    movement.
+                                    BiblioNexus, Inc. is a 501(c)(3) charitable organization founded
+                                    to support the role of open source software within the Bible
+                                    translation movement.
                                 </p>
                                 <div className='container'>
                                     <div className='row'>
