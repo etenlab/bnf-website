@@ -37,6 +37,10 @@ function ContactPage() {
                         <td>General Info</td>
                         <td>info@biblionexus.org</td>
                     </tr>
+                    <tr>
+                        <td>Technical Info</td>
+                        <td>development@biblionexus.org</td>
+                    </tr>
                 </tbody>
             </table>
         </>

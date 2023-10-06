@@ -22,15 +22,7 @@ function MembersPage() {
                 invitation only. The <a href='/foundation/governance/'>Governance</a> page provides
                 details on Membership and the nomination process.
             </p>
-            <p>
-                <a
-                    className='btn btn-default mx-10'
-                    href='http://home.apache.org/committers-by-project.html#member'
-                    role='button'
-                >
-                    Go to Member List
-                </a>
-            </p>
+
             <h2 id='bnf-members'>
                 BNF Members
                 <a className='headerlink' href='#bnf-members' title='Permalink'>
@@ -38,9 +30,8 @@ function MembersPage() {
                 </a>
             </h2>
             <p>
-                This table shows current and emeritus members who have manually added themselves to
-                it – it is NOT a complete listing. If you are a member and want to be included (this
-                is optional), see below for how to update the source file yourself.
+                This table shows current and emeritus members. If you are a member and want to be
+                included (this is optional), please email development at biblionexus dot org.
             </p>
             <table className='table'>
                 <thead>
