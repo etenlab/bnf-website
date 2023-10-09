@@ -397,8 +397,7 @@ function GlossaryPage() {
                         <a href='#Officer'>officer</a> of the BNF. As the PMC has official oversight
                         responsibilities assigned by <a href='#Governance'>Governance</a> , its
                         actions are considered to be on behalf of the BNF, with all the legal
-                        protections and responsibilities implied. See the
-                        <a href='bylaws.html#6.3'>Bylaws</a>.
+                        protections and responsibilities implied.
                     </p>
                 </dd>
                 <dt id='Podling'>Podling</dt>

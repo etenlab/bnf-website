@@ -137,7 +137,7 @@ function HowTheBNFWorksPage() {
                 PMC itself. See further discussion about the role of the PMC chair and why chairs
                 are officers.
             </p>
-            <p>The BNF Bylaws (section 6.3) define a PMC and the position of chair.</p>
+            <p>The BNF Bylaws define a PMC and the position of chair.</p>
             <p>
                 The role of the PMC from a Foundation perspective is oversight. The main role of the
                 PMC is not code and not coding, but to ensure that its community addresses all legal
