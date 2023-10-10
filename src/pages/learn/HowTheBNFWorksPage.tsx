@@ -71,8 +71,8 @@ function HowTheBNFWorksPage() {
 
                 <li>
                     <p>
-                        The BNF Governance Board (Governance) administers the BiblioNexus Foundation
-                        and is composed of governance board members.
+                        The BNF Governance Committee (Governance) administers the BiblioNexus
+                        Foundation and is composed of governance committee members.
                     </p>
                 </li>
 
@@ -96,16 +96,17 @@ function HowTheBNFWorksPage() {
             <p>
                 The board of directors is responsible for management and oversight of the entire
                 BiblioNexus organization, both Studio and Foundation, in accordance with the
-                BiblioNexus Bylaws.
+                BiblioNexus Bylaws. The current board was established at the founding of
+                BiblioNexus, Inc and there have been no new elections as of yet.
             </p>
 
-            <h2 id='structure'>GOVERNANCE BOARD (GOVERNANCE)</h2>
+            <h2 id='structure'>GOVERNANCE COMMITTEE (GOVERNANCE)</h2>
             <p>
-                The governance board is responsible for management and oversight of the business and
-                affairs of the BiblioNexus Foundation in accordance with the foundation Bylaws. This
-                includes management of the foundation&apos;s assets (funds, intellectual property,
-                trademarks, and support equipment) and allocation of corporate resources to
-                projects.
+                The governance committee is responsible for management and oversight of the business
+                and affairs of the BiblioNexus Foundation in accordance with the foundation Bylaws.
+                This includes management of the foundation&apos;s assets (funds, intellectual
+                property, trademarks, and support equipment) and allocation of corporate resources
+                to projects.
             </p>
             <p>
                 Governance is also able to impose technical restrictions and requirements on PMCs to
@@ -113,17 +114,14 @@ function HowTheBNFWorksPage() {
                 which is to accelerate Bible translation through excellence in digital products.
             </p>
             <p>
-                Governance is currently composed of three individuals, one of which represents the
-                ETEN subcommitte on acceleration. The bylaws don&apos;t specify the number of board
-                members that the foundation should have, but this was the number of the first board
-                and it has not yet been changed. Governance is elected every year.
+                Governance is currently composed of one individual pending the arrival of project
+                and organization leaders from within the Bible translation movement.
             </p>
-            <p>The board website has more information and the list of the current directors.</p>
 
             <h3 id='board'>PROJECT MANAGEMENT COMMITTEES (PMC)</h3>
             <p>
-                The Governance establishes Project Management Committees (PMCs) to be responsible
-                for the active management of one or more specific communities.
+                Governance establishes Project Management Committees (PMCs) to be responsible for
+                the active management of one or more specific communities.
             </p>
             <p>
                 Each PMC includes at least one officer of the BNF, who shall be designated its
@@ -131,11 +129,11 @@ function HowTheBNFWorksPage() {
             </p>
             <p>
                 Governance appoints the chair of the PMC, who also becomes an officer (Vice
-                President) of the BNF. The chair has primary responsibility to the governance board,
-                and has the power to establish rules and procedures for the day to day management of
-                the communities for which the PMC is responsible, including the composition of the
-                PMC itself. See further discussion about the role of the PMC chair and why chairs
-                are officers.
+                President) of the BNF. The chair has primary responsibility to the governance
+                committee, and has the power to establish rules and procedures for the day to day
+                management of the communities for which the PMC is responsible, including the
+                composition of the PMC itself. See further discussion about the role of the PMC
+                chair and why chairs are officers.
             </p>
             <p>The BNF Bylaws define a PMC and the position of chair.</p>
             <p>
@@ -159,7 +157,7 @@ function HowTheBNFWorksPage() {
             </p>
             <p>
                 However those on the PMC are held to a higher standard. The PMC, and the chair in
-                particular, are the eyes and ears of the BNF governance board, so we rely on and
+                particular, are the eyes and ears of the BNF governance committee, so we rely on and
                 need to trust you to provide legal oversight.
             </p>
             <p>Governance can terminate a PMC at any time by resolution.</p>

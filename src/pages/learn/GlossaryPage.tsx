@@ -42,7 +42,7 @@ function GlossaryPage() {
                 <dt id='Governance'>Governance</dt>
                 <dd>
                     <p>
-                        The three-person administrative body of the BNF, elected by the members.
+                        The administrative body of the BNF, elected by the board of directors.
                         Governance provides the oversight of the BNF&apos;s activities and
                         operation, and applies and enforces the BNF&apos;s bylaws. Among other
                         things, Governance approves or rejects resolutions brought before it, such
@@ -83,8 +83,8 @@ function GlossaryPage() {
                 <dd>
                     <p>
                         <strong>1.</strong> The Chair of the <a href='#Governance'>Governance</a>{' '}
-                        Board of the <a href='#BNF'>BNF</a>, responsible for the orderly meeting and
-                        functioning of Governance.
+                        Committee of the <a href='#BNF'>BNF</a>, responsible for the orderly meeting
+                        and functioning of Governance.
                         <strong>2.</strong> The official head of a committee, such as a Project
                         Management Committee <a href='#PMC'>PMC</a>. PMC Chairs are BNF
                         <a href='#Vice-President'>Vice Presidents</a> given charge of the proper
@@ -187,23 +187,19 @@ function GlossaryPage() {
                         known as &quot;contributors&quot;.
                     </p>
                 </dd>
-                <dt id='BoardDirector'>Board Director</dt>
-                <dd>
-                    <p>
-                        One of three individuals on the BiblioNexus board. Not to be confused with
-                        BNF <a href='#Governance'>Governance board</a> <a href='#Member'>members</a>
-                        .
-                    </p>
-                </dd>
                 <dt id='Director'>Director</dt>
                 <dd>
+                    <p>One of three individuals on the BiblioNexus board. .</p>
+                </dd>
+                <dt id='CommitteeMember'>Committee Member</dt>
+                <dd>
                     <p>
-                        One of nine individuals elected annually by the
-                        <a href='#Member'>members</a> to the BNF&apos;s
-                        <a href='#Governance'>governance board</a>. Directors may or may not have
-                        individual responsibilities, but all are generally expected to stay informed
-                        about as much of the BNF&apos;s operations and activity as possible, since
-                        the Board provides oversight for the Foundation as a whole.
+                        One individuals elected annually by the
+                        <a href='#Board'>Board</a> to the BNF&apos;s
+                        <a href='#Governance'>governance committee</a>. Committee Members may or may
+                        not have individual responsibilities, but all are generally expected to stay
+                        informed about as much of the BNF&apos;s operations and activity as
+                        possible, since the Board provides oversight for the Foundation as a whole.
                     </p>
                 </dd>
                 <dt id='Emeritus'>Emeritus</dt>
